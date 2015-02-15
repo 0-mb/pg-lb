@@ -1,0 +1,34 @@
+{
+  "name": "pg-lb",
+  "version": "0.1.0",
+  "description": "pg wrapper for load balancing reads in single or clustered nodejs environments",
+  "main": "lib/pg-lb.js",
+  "scripts": {
+    "test": "mocha -R spec -t 5000 test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0-mb/pg-lb.git"
+  },
+  "keywords": [
+    "postgres",
+    "pg",
+    "load-balance",
+    "high-availability",
+    "scale",
+    "replication",
+    "redundancy"
+  ],
+  "author": "0mb",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/0-mb/pg-lb/issues"
+  },
+  "homepage": "https://github.com/0-mb/pg-lb",
+  "devDependencies": {
+    "mocha": "^2.1.0"
+  },
+  "dependencies": {
+    "pg": "^4.2.0"
+  }
+}
